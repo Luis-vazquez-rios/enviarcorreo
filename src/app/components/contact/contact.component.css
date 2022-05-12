@@ -1,0 +1,41 @@
+.form-container h1{
+  background: aqua;
+  padding: 20px 0;
+  font-size: 140%;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  margin: -16px;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea{
+  transition: all 0,30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95%Arial;
+}
+.form-container input[type="text"]:focus,
+.form-container input[type="email"]:focus,
+.form-container textarea:focus{
+  box-shadow: 0 0 0 5px #43d1af;
+  padding: 3%;
+  border: 1px solid #43d1af;
+}
+.form-container .btn-send{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3%;
+  background: #43d1af;
+  border-bottom: 2px solid #30c29e;
+  border-top-style: none;
+  border-right-style: none;
+  border-left-style: none;
+  color: #fff;
+}

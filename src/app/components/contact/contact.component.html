@@ -1,0 +1,9 @@
+<div class="form-container" xmlns="http://www.w3.org/1999/html">
+  <h1>redactar correo</h1>
+  <form [formGroup]="contacForm"(ngSubmit)="onSaveForm()">
+    <input type="text" formControlName="name" placeholder="ingresa tu nombre">
+    <input type="text" formControlName="email" placeholder="ingresa tu email">
+    <textarea formControlName="message" placeholder="escriba su mensaje"></textarea>
+    <button type="submit" class="btn-send">Send </button>
+  </form>
+</div>
